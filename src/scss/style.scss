@@ -25,11 +25,11 @@ html, body {
 
 .nav-link {
     text-decoration: none;
-    color: rgba(0,0,0,0.5)
+    color: rgba(0,0,0,0.5); 
 }
 
 .nav-link:hover {
-    color: rgba(0,0,0,0.9)
+    color: rgba(0,0,0,0.9);
 }
 
 // start home page main styles
@@ -40,6 +40,96 @@ html, body {
 // end Menu page main styles
 // start Coffee page main styles
 //
+main {
+    margin-top: 4rem;
+    margin: 4rem 17% 4rem;
+}
+
+.heading {
+    color:  #343A40;
+    font-size: 3rem;
+}
+
+.our-coffee {
+    color:  #343A40;
+    font-size: 1rem;
+}
+
+.squaremile {
+    color: #0099FF;
+}
+
+.note {
+    color:  #343A40;
+    font-size: 0.9rem;
+}
+
+.product {
+    margin-top: 1rem;
+}
+
+.product__container {
+    display: flex;
+    
+    flex-wrap: wrap;  
+    width: 100%;
+    gap: 10%;
+}
+
+.product__card__container {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-bottom: 2rem;
+    
+}
+
+
+.product__card--1,
+.product__card--2,
+.product__card--3,
+.product__card--4 {
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F1F2;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+@media  (max-width: 480px)  {
+    .product__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.product__card__heading {
+    background-color:  #F0F1F2;
+    font-size: 1.5rem ;
+    color: #343A40;
+}
+
+.product__card__taste {
+    color: #343A40;
+    font-size: 0.9;
+    font-style: italic;
+}
+
+.product__card__text {
+    color: #343A40;
+    font-size: 0.9;
+}
+
+
+
+
+
 // end Coffee page main styles
 // start Our Story page main styles
 //
