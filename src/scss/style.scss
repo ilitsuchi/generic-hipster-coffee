@@ -1,104 +1,81 @@
-
-html, body {
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-    margin: 0;
+html,
+body {
+	font-family: "Roboto", sans-serif;
+	box-sizing: border-box;
+	margin: 0;
 }
 
 .header {
-    display: flex;
-    flex-direction: column;
-    background-color: #F8F9FA;
-    
+	display: flex;
+	flex-direction: column;
+	background-color: #f8f9fa;
 }
 
 .logo {
-    height: 99px; 
-    width: 99px;
-    align-self: center;
-    padding: 1rem 0rem;
+	height: 99px;
+	width: 99px;
+	align-self: center;
+	padding: 1rem 0rem;
 }
 
 .nav__container {
-    text-align: center;
-    padding: 1rem 0rem 1rem;
+	text-align: center;
+	padding: 1rem 0rem 1rem;
 }
 
-
-
 .nav-link {
-    text-decoration: none;
-    color: rgba(0,0,0,0.5)
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.5);
 }
 
 .nav-link:hover {
-    color: rgba(0,0,0,0.9)
+	color: rgba(0, 0, 0, 0.9);
 }
 
 // start home page main styles !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-// <main >
-// <section class = "main__container">
-// <section class="main__container-inside">
-//     <h1 class="menu">MENU</h1>
-//     <div class="list_first">
-//         <!-- FIRST RIGHT -->
-//         <div class="list1_left">
-//             <h2>ESPRESSO COFFEE</h2>
-//             <div class="4space_between">
-//                 <p>Espresso</p>
-//                 <p>3.8</p>
-//             </div>
-//             <div class="4space_between">
-//                 <p>Doubleespresso</p>
-//                 <p>4.9</p>
-//             </div>
-
 .main__container {
-    display: flex;
-    flex-direction: column;
-    margin-left: 2rem;
-    margin-right: 3.5rem;
+	display: flex;
+	flex-direction: column;
+	margin-left: 2rem;
+	margin-right: 3.5rem;
 }
 
-
-
 img {
-    flex-direction: row;
-    max-width: 100%;
-    height: auto;
+	flex-direction: row;
+	max-width: 100%;
+	height: auto;
 }
 
 // end Our Story page main styles !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-
 .footer {
-    background-color: #343A40;
+	background-color: #343a40;
 }
 
 .footer__site-links {
-    display: flex;
-    justify-content: space-around;
-    padding: 7rem 0rem 5rem;
+	display: flex;
+	justify-content: space-around;
+	padding: 7rem 0rem 5rem;
 }
 
 .footer-link {
-    color: #0099FF;
+	color: #0099ff;
 }
 
 .footer-link:hover {
-    color: #F8F9FA;
-    text-decoration: none;
+	color: #f8f9fa;
+	text-decoration: none;
 }
 
 .footer__social-hash {
-    color: #CED4DA;
-    text-transform: uppercase;
-    text-align: center;
+	color: #ced4da;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 .footer__folow-links {
-    color: #CED4DA;
-    text-align: center;
-    padding: 0rem 0rem 7rem;
+	color: #ced4da;
+	text-align: center;
+	padding: 0rem 0rem 7rem;
 }
