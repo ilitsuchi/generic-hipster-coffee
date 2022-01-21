@@ -7,16 +7,21 @@ body {
 .header {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	background-color: #f8f9fa;
 }
 
 .logo {
 	height: 10rem;
 	padding: 1rem 0rem;
+	margin-left: 2em;
 }
 
 .nav__container {
+	display: flex;
 	text-align: center;
+	justify-content: center;
+	gap: 1rem;
 	padding: 1rem 0rem 1rem;
 }
 
@@ -29,6 +34,21 @@ body {
 	color: rgba(0, 0, 0, 0.9);
 }
 
+// responsive menu
+@media (min-width: 760px) {
+	.header__container {
+		width: 85%;
+		max-width: 1090px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.logo {
+		margin-left: 0;
+	}
+}
 // start home page main styles
 .main__container {
 	padding: 1em;
@@ -49,11 +69,25 @@ body {
 		.main__info--title {
 			font-size: 1.5em;
 		}
+	}
+	.main__map {
+		width: 100%;
+		height: 614px;
+		margin-bottom: -5rem;
+	}
+}
 
-		.main__map {
-			width: 100%;
-			margin-bottom: -5rem;
-		}
+@media (min-width: 760px) {
+	.main__container {
+		margin: 0 auto;
+		width: 85%;
+		max-width: 1090px;
+	}
+
+	.main__info {
+		display: flex;
+		gap: 10rem;
+		margin-bottom: 1rem;
 	}
 }
 
@@ -74,11 +108,13 @@ body {
 
 .footer__site-links {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center; //fixes the links spacing and centering problem
+	gap: 4rem; //fixes the links spacing and centering problem
 	padding: 7rem 0rem 5rem;
 }
 
 .footer-link {
+	color: #0099ff; //fixes the coloring issue after selecting one
 }
 
 .footer-link:hover {
@@ -97,4 +133,7 @@ body {
 	text-align: center;
 	padding: 0rem 0rem 7rem;
 	margin: 0; //this fixes the margin at the bottom
+	a {
+		color: #0099ff; //fixes the coloring issue after selecting one
+	}
 }
