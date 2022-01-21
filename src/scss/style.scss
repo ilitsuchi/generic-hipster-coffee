@@ -1,0 +1,78 @@
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F9FA;
+    
+}
+
+.logo {
+    height: 10rem; 
+    padding: 1rem 0rem;
+}
+
+.nav__container {
+    text-align: center;
+    padding: 1rem 0rem 1rem;
+}
+
+
+
+.nav-link {
+    text-decoration: none;
+    color: rgba(0,0,0,0.5)
+}
+
+.nav-link:hover {
+    color: rgba(0,0,0,0.9)
+}
+
+// start home page main styles
+//
+// end home page main styles
+// start Menu page main styles
+//
+// end Menu page main styles
+// start Coffee page main styles
+//
+// end Coffee page main styles
+// start Our Story page main styles
+//
+// end Our Story page main styles
+
+
+.footer {
+    background-color: #343A40;
+}
+
+.footer__site-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 7rem 0rem 5rem;
+}
+
+.footer-link {
+      
+}
+
+.footer-link:hover {
+    color: #F8F9FA;
+    text-decoration: none;
+}
+
+.footer__social-hash {
+    color: #CED4DA;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footer__folow-links {
+    color: #CED4DA;
+    text-align: center;
+    padding: 0rem 0rem 7rem;
+}
