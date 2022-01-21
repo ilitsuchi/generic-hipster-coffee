@@ -35,7 +35,7 @@ body {
 }
 
 // responsive menu
-@media (min-width: 760px) {
+@media (min-width: 768px) {
 	.header__container {
 		width: 85%;
 		max-width: 1090px;
@@ -70,14 +70,26 @@ body {
 			font-size: 1.5em;
 		}
 	}
-	.main__map {
+	.main__map__container {
+		position: relative;
+		overflow: hidden;
 		width: 100%;
-		height: 614px;
+		padding-top: 75%; /* 4:3 Aspect Ratio */
 		margin-bottom: -5rem;
+		.main__map {
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			width: 100%;
+			height: 100%;
+			border: none;
+		}
 	}
 }
 
-@media (min-width: 760px) {
+@media (min-width: 768px) {
 	.main__container {
 		margin: 0 auto;
 		width: 85%;
@@ -109,7 +121,7 @@ body {
 .footer__site-links {
 	display: flex;
 	justify-content: center; //fixes the links spacing and centering problem
-	gap: 4rem; //fixes the links spacing and centering problem
+	gap: 5%; //fixes the links spacing and centering problem
 	padding: 7rem 0rem 5rem;
 }
 
