@@ -107,6 +107,47 @@ body {
 // end home page main styles
 // start Menu page main styles
 //
+main {
+	text-align: center;
+	.space_between {
+		display: flex;
+		justify-content: space-between;
+	}
+	.menu__image__container {
+		.menu__image {
+			width: 50%;
+			margin-bottom: -5em;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	main {
+		width: 100%;
+		max-width: 1090px;
+		margin: 0 auto;
+		h1,
+		h2 {
+			font-weight: 300;
+		}
+
+		.menu__title {
+			margin: 1em;
+		}
+
+		.main__container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			column-gap: 20%;
+
+			.menu__category {
+				width: 40%;
+				flex-direction: column;
+			}
+		}
+	}
+}
 // end Menu page main styles
 // start Coffee page main styles
 //
