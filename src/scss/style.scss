@@ -1,6 +1,7 @@
 
 html, body {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
     margin: 0;
 }
 
@@ -12,7 +13,9 @@ html, body {
 }
 
 .logo {
-    height: 10rem; 
+    height: 99px; 
+    width: 99px;
+    align-self: center;
     padding: 1rem 0rem;
 }
 
@@ -32,18 +35,41 @@ html, body {
     color: rgba(0,0,0,0.9)
 }
 
-// start home page main styles
-//
-// end home page main styles
-// start Menu page main styles
-//
-// end Menu page main styles
-// start Coffee page main styles
-//
-// end Coffee page main styles
-// start Our Story page main styles
-//
-// end Our Story page main styles
+// start home page main styles !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+// <main >
+// <section class = "main__container">
+// <section class="main__container-inside">
+//     <h1 class="menu">MENU</h1>
+//     <div class="list_first">
+//         <!-- FIRST RIGHT -->
+//         <div class="list1_left">
+//             <h2>ESPRESSO COFFEE</h2>
+//             <div class="4space_between">
+//                 <p>Espresso</p>
+//                 <p>3.8</p>
+//             </div>
+//             <div class="4space_between">
+//                 <p>Doubleespresso</p>
+//                 <p>4.9</p>
+//             </div>
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 3.5rem;
+}
+
+
+
+img {
+    flex-direction: row;
+    max-width: 100%;
+    height: auto;
+}
+
+// end Our Story page main styles !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 .footer {
@@ -57,7 +83,7 @@ html, body {
 }
 
 .footer-link {
-      
+    color: #0099FF;
 }
 
 .footer-link:hover {
